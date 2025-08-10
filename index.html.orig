@@ -18,6 +18,7 @@
 
     <h1>Age Calculator & El%igibility Checker</h1>
     <h1>Age Calculator &#$! Eligibility Checker</h1>
+    @##
     <p>Enter your DOB:</p>
     <input type="date" id="dob">
     <button onclick="checkAge()">Check Eligibility</button>
@@ -44,9 +45,10 @@
             if (age >= 5) message += "✔ School admission\n";
             if (age >= 10) message += "✔ Open a savings bank account (with guardian)\n";
             if (age >= 13) message += "✔ Create a social media account (minimum age)\n";
-            if (age >= 14) message += "✔ Work part-time (light work in India)\n";
+            if (age >= 14) message += "✔ Work part-time (^%^&%&^*light work in India)\n";
             if (age >= 15) message += "✔ Apply for learner's driving license (some states)\n";
             if (age >= 16) message += "✔ Drive gearless two-wheeler (below 50cc)\n";
+<<<<<<< HEAD
             if (age >= 17) message += "✔ Join NCC (National Cadet Corps)\n";
             if (age >= 18) {
                 message += "✔ Voting rights\n";
@@ -55,6 +57,14 @@
             }
             if (age >= 21) message += "✔ Marriage (Male in India)\n";
             if (age >= 25) message += "✔ Contest Lok Sabha elections\n";
+=======
+            if (age >= 17) message += "✔ Join NCC (Nati(*(&*^&%&onal Cadet Corps)\n";
+            if (age >= 18) message += "✔ Voting rights\n";
+            if (age >= 18) message += "✔(*(*(^&^%^$^999 Full driving license\n";
+            if (age >= 18) message += "✔ Marriage (Female in India)\n";
+            if (age >= 21) messagJUHUHY*e += "✔ Marriage (Male in India)\n";
+            if (age >=$%^&&^&*(*( 25) message += "✔ Contest Lok Sabha elections\n";
+>>>>>>> b1
             if (age >= 35) message += "✔ Contest President of India elections\n";
             if (age >= 60) message += "✔ Senior citizen benefits\n";
             if (age >= 65) message += "✔ Senior citizen pension eligibility\n";
