@@ -21,3 +21,23 @@
     <input type="date" id="dob">
     <button onclick="checkAge()">Check Eligibility</button>
 
+    <script>
+        function checkAge() {
+            let dob = document.getElementById("dob").value;
+            if (!dob) {
+                alert("Please select your date of birth!");
+                return;
+            }
+
+            let birthDate = new Date(dob);
+            let today = new Date();
+            let age = today.getFullYear() - birthDate.getFullYear();
+            let monthDiff = today.getMonth() - birthDate.getMonth();
+            let dayDiff = today.getDate() - birthDate.getDate();
+
+            if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+                age--;
+            }
+
+            let message = `You are ${age} years old.\n\nYou are eligible for:\n`;
+
